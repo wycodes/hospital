@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hospital.mapper.Record2Mapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.hospital.entity.Record2">
+        <id column="id" property="id" />
+        <result column="deletestatus" property="deletestatus" />
+        <result column="riqi" property="riqi" />
+        <result column="status" property="status" />
+        <result column="ytime" property="ytime" />
+        <result column="userid" property="userid" />
+        <result column="yuyue2id" property="yuyue2id" />
+    </resultMap>
+
+</mapper>

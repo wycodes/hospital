@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hospital.mapper.XinwenMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.hospital.entity.Xinwen">
+        <id column="id" property="id" />
+        <result column="ctime" property="ctime" />
+        <result column="deletestatus" property="deletestatus" />
+        <result column="vist" property="vist" />
+        <result column="xcontent" property="xcontent" />
+        <result column="xtitle" property="xtitle" />
+    </resultMap>
+
+</mapper>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hospital.mapper.DoctorMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.hospital.entity.Doctor">
+        <id column="id" property="id" />
+        <result column="bianhao" property="bianhao" />
+        <result column="deletestatus" property="deletestatus" />
+        <result column="jianjie" property="jianjie" />
+        <result column="name" property="name" />
+        <result column="photo" property="photo" />
+        <result column="renshu" property="renshu" />
+        <result column="shanchang" property="shanchang" />
+        <result column="week" property="week" />
+        <result column="zhiwu" property="zhiwu" />
+        <result column="keshiid" property="keshiid" />
+    </resultMap>
+
+</mapper>
